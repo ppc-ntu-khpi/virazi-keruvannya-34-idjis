@@ -6,19 +6,19 @@ package domain;
 public class Exercise {
 	/**
 	 * A method containing the implementation of a given task
-	 * @param arr - parameter that is used to solve the problem
+	 * @param array - parameter that is used to solve the problem
 	 * @param elem - parameter that is used to solve the problem
 	 * @return n - return value
 	 */
-    public static int Calculate(int[] arr, int elem){
+    public static int Calculate(int[] array, int x){
     	
-    	int n=0;
+    	int number=0;
         
-        for(int temp:arr){
-            if(elem==temp){
-                n++;
+        for(int temp:array){
+            if(x==temp){
+                number++;
             }
         }
-        return n;
+        return number;
     }
 }
