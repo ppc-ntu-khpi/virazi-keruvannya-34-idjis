@@ -30,6 +30,6 @@ public class TestResult {
                 reit=num;
             }
         }
-        System.out.println("Найбільшу кількість разів повторюється число: " + n);
+        System.out.println("The largest number of times is a repeated number: " + n);
     }
 }
