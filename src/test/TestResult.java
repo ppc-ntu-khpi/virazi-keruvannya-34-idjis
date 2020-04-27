@@ -18,6 +18,6 @@ public class TestResult extends Exercise{
     	    a[i] = ((int)(Math.random() * 10));
     	}
 
-        System.out.println("Число которое чаще всего повторяется " + Exercise.Calculate(a));
+        System.out.println("The number that is repeated the greatest number of times " + Exercise.Calculate(a));
     }
 }
